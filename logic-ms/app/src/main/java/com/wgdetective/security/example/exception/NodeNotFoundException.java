@@ -1,0 +1,12 @@
+package com.wgdetective.security.example.exception;
+
+/**
+ * NodeNotFoundException.
+ */
+public class NodeNotFoundException extends RuntimeException {
+
+    public NodeNotFoundException(final String msg) {
+        super(msg);
+    }
+
+}
